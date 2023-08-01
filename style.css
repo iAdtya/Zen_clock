@@ -22,9 +22,9 @@ h1 {
 }
 
 button {
-  position: absolute;    /* Set button to absolute position relative to its parent */
+  /* position: absolute;     Set button to absolute position relative to its parent  */
   bottom:1px;             /* Position at the bottom of parent */
-  right: 0;            /* Position at the right of parent to avoid overflow */
+  /* right: 0;             Position at the right of parent to avoid overflow */ 
   background-color: #ebcaa2;
   color: #514878;
   width: 100%; 
@@ -37,7 +37,7 @@ button {
 
 select{
   height: 50px;
-  width:  70px;
+  width:  84px;
   border: none;
   outline: none;
   background: none;
@@ -50,24 +50,25 @@ select{
   border-radius: 5px;
   border: 1px solid #ebcaa2;
   width: calc(33% - 10px);
-
 }
 .content {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .wrapper {
   position: relative;    /* Set .wrapper to relative position */
   background-color: #5f8859;
-  width: 55%;
+  /* width: 55vw; */
   height: auto;
   border-radius: 30px;
   padding: 10px;
 }
 
 .countdown {
+  padding-left:15px;
+  padding-right: 15px;
   margin: 80px auto;
   width: 50%;
   display: flex;
@@ -77,7 +78,6 @@ select{
 }
 
 .time-section {
-
   text-align: center;
   font-size: 40px;
 }

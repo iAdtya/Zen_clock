@@ -190,5 +190,3 @@ setInterval(function () {
   updateAllSegments(); // Update the displayed time every second
   checkAlarm(); // Check the alarm every second
 }, 1000);
-
-

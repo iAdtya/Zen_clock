@@ -1,0 +1,19 @@
+{
+  "name": "alarm_clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iAdtya/Zen_clock.git"
+  },
+  "author": "Aditya Khedekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iAdtya/Zen_clock/issues"
+  },
+  "homepage": "https://github.com/iAdtya/Zen_clock#readme"
+}
